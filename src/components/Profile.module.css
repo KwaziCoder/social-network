@@ -1,0 +1,10 @@
+.content {
+  grid-area: c;
+  background-color: yellow;
+}
+
+.background_image {
+  width: 100%;
+  height: 150px;
+  background: url('https://get.wallhere.com/photo/1920x1200-px-ART-artwork-dark-evil-horror-skeleton-skull-skulls-1677041.jpg') round;
+}

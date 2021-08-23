@@ -1,9 +1,10 @@
 import React from "react";
+import classes from './Profile.module.css'
 
 const Profile = () => {
   return (
-    <div className="content">
-      <div className="background_image" />
+    <div className={classes.content}>
+      <div className={classes.background_image} />
       <div>avatar + name</div>
       <div>
         My posts
