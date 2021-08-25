@@ -1,4 +1,5 @@
 import React from "react";
+import MyPosts from "./MyPosts/MyPosts";
 import classes from './Profile.module.css'
 
 const Profile = () => {
@@ -6,16 +7,7 @@ const Profile = () => {
     <div className={classes.content}>
       <div className={classes.background_image} />
       <div>avatar + name</div>
-      <div>
-        My posts
-        <div>new post</div>
-        <div>
-          posts
-          <div>post 1</div>
-          <div>post 2</div>
-          <div>post 3</div>
-        </div>
-      </div>
+      <MyPosts/>
     </div>
   );
 };
