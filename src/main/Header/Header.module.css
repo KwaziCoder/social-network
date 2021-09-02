@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0F0F0F;
+}
+
+.logoContainer {
+  
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.link {
+  color: white
+}
+

@@ -2,16 +2,14 @@
 import React from "react";
 import "./App.css";
 // local imports
-import Header from './components/Header/Header'
-import Navbar from "./components/Navbar/Navbar";
-import Profile from "./components/Profile/Profile";
+import Header from './main/Header/Header'
+import Content from './main/Content/Content'
 
 const App = () => {
   return (
     <div className="root">
-      <Header/>
-      <Navbar/>
-      <Profile/>
+      <Header className="root_header"/>
+      <Content className="root_content"/>
     </div>
   );
 };

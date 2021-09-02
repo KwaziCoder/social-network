@@ -1,0 +1,6 @@
+.content {
+  background-color: #c41717;
+  
+  display: grid;
+  height: 100vh - 70px;
+}
